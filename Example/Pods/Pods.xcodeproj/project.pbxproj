@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		089AAA70BDD6711C5F2C5DF22A7D9EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2C2D48DCBFF5111A459D32706DD5F7F9 /* Pods-ScrollableStackView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16785C2D206A794C54B2C07F943CD069 /* Pods-ScrollableStackView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3415ED11C059C833B8BE67AAA6B668F6 /* ScrollableStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AE40C70DB674802E84F580125DD9DE /* ScrollableStackView-dummy.m */; };
+		3415ED11C059C833B8BE67AAA6B668F6 /* ScrollableStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7ECCCDB5F2A63A7D7F83995C98DA82 /* ScrollableStackView-dummy.m */; };
 		3CDB1BF3F5A6D65CA5ED303CAE8DD7E1 /* Pods-ScrollableStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B437570AEB0C6149E14F2E38980EB7 /* Pods-ScrollableStackView_Tests-dummy.m */; };
 		5D2A85E8503E207944A672E03F7E27A6 /* Pods-ScrollableStackView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AE3BE69EBEFB2E818400656C5F645B /* Pods-ScrollableStackView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		723994677B97F23C2F37C7720D344753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		813D4FFB7EB3CC2B9DCFF842F1686589 /* ScrollableStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7828FC5A1B80CE25B4093C56695CB924 /* ScrollableStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		813D4FFB7EB3CC2B9DCFF842F1686589 /* ScrollableStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DCEC93F0E30CFE08FF741B670094D5 /* ScrollableStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4594BFB15CB745D6D24C9BBBB002B38 /* Pods-ScrollableStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB415CB86F373A2B2893F9AF825A94B9 /* Pods-ScrollableStackView_Example-dummy.m */; };
-		D0A590A281AB220D616DB6A2DC83BBF4 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F876FF9F3E53A7BE6693139830407B /* ScrollableStackView.swift */; };
+		D0A590A281AB220D616DB6A2DC83BBF4 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C0C2B76F1CEC2EF5DC1606F236ED6 /* ScrollableStackView.swift */; };
 		FF523289F1C32E5DA2DB9948EF683E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,38 +30,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007B50204D5ADB196D37E0FCD4E457C4 /* ScrollableStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableStackView-prefix.pch"; sourceTree = "<group>"; };
 		043A4B324CC3A348132C1C3FD674DD69 /* Pods-ScrollableStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollableStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		05E2F25F546524BF7CB1C2C1740C746F /* Pods-ScrollableStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollableStackView_Tests-resources.sh"; sourceTree = "<group>"; };
 		11A7ECAF41AC00024DF465996A68B6D8 /* Pods-ScrollableStackView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollableStackView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		16785C2D206A794C54B2C07F943CD069 /* Pods-ScrollableStackView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollableStackView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		193419063A422AD51C371CD9FFD0B5CC /* ScrollableStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollableStackView.framework; path = ScrollableStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B04FA5B144B8B018227A86A11B39C10 /* ScrollableStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableStackView.xcconfig; sourceTree = "<group>"; };
 		2A3D55062D6751A3CD3645423E6A0D1A /* Pods-ScrollableStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollableStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CD0F0547DF1A040E3D5E469314E60C4 /* Pods_ScrollableStackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollableStackView_Example.framework; path = "Pods-ScrollableStackView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DCEC93F0E30CFE08FF741B670094D5 /* ScrollableStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableStackView-umbrella.h"; sourceTree = "<group>"; };
 		33C67BED8417FBC2AF82628B19B96BE4 /* Pods-ScrollableStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollableStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3F4FDE7B8E787438AC84B63A5D9E9BCD /* ScrollableStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ScrollableStackView.modulemap; sourceTree = "<group>"; };
-		41F876FF9F3E53A7BE6693139830407B /* ScrollableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableStackView.swift; path = ScrollableStackView/Classes/ScrollableStackView.swift; sourceTree = "<group>"; };
 		4D09BB24A07E07EEF09AC811D19FF4F2 /* Pods-ScrollableStackView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScrollableStackView_Tests.modulemap"; sourceTree = "<group>"; };
 		54331502A8D77AD033FA1C850BA9D559 /* Pods-ScrollableStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollableStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55470B0A349CF246F62B052BDDC7C130 /* ScrollableStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ScrollableStackView.modulemap; sourceTree = "<group>"; };
 		57B437570AEB0C6149E14F2E38980EB7 /* Pods-ScrollableStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollableStackView_Tests-dummy.m"; sourceTree = "<group>"; };
 		593A52280DB5FA927A5B3DC134CE45A7 /* Pods-ScrollableStackView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScrollableStackView_Example.modulemap"; sourceTree = "<group>"; };
 		5A638C6DD5E01315059B56C579B42B5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B9D3BB85F1CC31D77B4E89051C05B1D /* Pods-ScrollableStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollableStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D6151DB76D84B55B97FFF1F2096D545 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		718383B8E1A0AB5F6F9B712421C0758E /* Pods-ScrollableStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollableStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		76F8E0B86F690DA003E3CF7BB35F62E1 /* Pods-ScrollableStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollableStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7828FC5A1B80CE25B4093C56695CB924 /* ScrollableStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableStackView-umbrella.h"; sourceTree = "<group>"; };
-		78E4D72B37C3946F5C9474F646845D49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C6C0C2B76F1CEC2EF5DC1606F236ED6 /* ScrollableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableStackView.swift; path = ScrollableStackView/Classes/ScrollableStackView.swift; sourceTree = "<group>"; };
+		A88C4CAF5B951165D635BF67CF88C1E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AEF12C7A6FDD3539BAB4CEFF4205310A /* ScrollableStackView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ScrollableStackView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF93383F62DE3EFDBFBE37E49F01E754 /* ScrollableStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableStackView-prefix.pch"; sourceTree = "<group>"; };
 		B17EFA138DE465488A43C1133A8CBB05 /* Pods_ScrollableStackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollableStackView_Tests.framework; path = "Pods-ScrollableStackView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FA61723C03A6619CE663A498CC582C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D60CA64E989908E934FC0D0423E2F2 /* Pods-ScrollableStackView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollableStackView_Example-resources.sh"; sourceTree = "<group>"; };
-		B7FD964F0FFAA18B82F414EB6B44B4B4 /* ScrollableStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableStackView.xcconfig; sourceTree = "<group>"; };
 		CB415CB86F373A2B2893F9AF825A94B9 /* Pods-ScrollableStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollableStackView_Example-dummy.m"; sourceTree = "<group>"; };
 		CDD28A41C6436B884CE1BCCE4F3E5C7B /* Pods-ScrollableStackView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollableStackView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DE7ECCCDB5F2A63A7D7F83995C98DA82 /* ScrollableStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableStackView-dummy.m"; sourceTree = "<group>"; };
 		E1AE3BE69EBEFB2E818400656C5F645B /* Pods-ScrollableStackView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollableStackView_Example-umbrella.h"; sourceTree = "<group>"; };
-		E7AE40C70DB674802E84F580125DD9DE /* ScrollableStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableStackView-dummy.m"; sourceTree = "<group>"; };
 		E7DD78DB4A2B4291D94A15777E00D467 /* Pods-ScrollableStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollableStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE002FAF001BDA246FA3952056B65165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,38 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		171EC07562C2C06277CA5375367EF86B /* ScrollableStackView */ = {
-			isa = PBXGroup;
-			children = (
-				41F876FF9F3E53A7BE6693139830407B /* ScrollableStackView.swift */,
-				23E4AE4BF41B220191A27A5378AD2AF3 /* Support Files */,
-			);
-			name = ScrollableStackView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		23E4AE4BF41B220191A27A5378AD2AF3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				78E4D72B37C3946F5C9474F646845D49 /* Info.plist */,
-				3F4FDE7B8E787438AC84B63A5D9E9BCD /* ScrollableStackView.modulemap */,
-				B7FD964F0FFAA18B82F414EB6B44B4B4 /* ScrollableStackView.xcconfig */,
-				E7AE40C70DB674802E84F580125DD9DE /* ScrollableStackView-dummy.m */,
-				007B50204D5ADB196D37E0FCD4E457C4 /* ScrollableStackView-prefix.pch */,
-				7828FC5A1B80CE25B4093C56695CB924 /* ScrollableStackView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ScrollableStackView";
-			sourceTree = "<group>";
-		};
-		447A35C0046161E80D32E182A3C7A178 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				171EC07562C2C06277CA5375367EF86B /* ScrollableStackView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		59691B6E4A14EF2953793A5535A03B4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,15 +105,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		789147281485AAF3CCE8AA25C41F8271 /* ScrollableStackView */ = {
+			isa = PBXGroup;
+			children = (
+				9C6C0C2B76F1CEC2EF5DC1606F236ED6 /* ScrollableStackView.swift */,
+				AA56C19564BBD9CE7592DC9ACCB3E786 /* Pod */,
+				F3395C4A76E0D913BC2AFA3C2FF9323A /* Support Files */,
+			);
+			name = ScrollableStackView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				447A35C0046161E80D32E182A3C7A178 /* Development Pods */,
+				89F2DA4CC8C5D6446748618BEAAE9BE0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				59691B6E4A14EF2953793A5535A03B4A /* Products */,
 				BFE694EE17940302C687728641DD74E9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		89F2DA4CC8C5D6446748618BEAAE9BE0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789147281485AAF3CCE8AA25C41F8271 /* ScrollableStackView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		98ECF7314CFB3ACAD52676157592FD88 /* Pods-ScrollableStackView_Example */ = {
@@ -161,6 +151,16 @@
 			);
 			name = "Pods-ScrollableStackView_Example";
 			path = "Target Support Files/Pods-ScrollableStackView_Example";
+			sourceTree = "<group>";
+		};
+		AA56C19564BBD9CE7592DC9ACCB3E786 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A88C4CAF5B951165D635BF67CF88C1E9 /* LICENSE */,
+				6D6151DB76D84B55B97FFF1F2096D545 /* README.md */,
+				AEF12C7A6FDD3539BAB4CEFF4205310A /* ScrollableStackView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -186,6 +186,20 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3395C4A76E0D913BC2AFA3C2FF9323A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE002FAF001BDA246FA3952056B65165 /* Info.plist */,
+				55470B0A349CF246F62B052BDDC7C130 /* ScrollableStackView.modulemap */,
+				1B04FA5B144B8B018227A86A11B39C10 /* ScrollableStackView.xcconfig */,
+				DE7ECCCDB5F2A63A7D7F83995C98DA82 /* ScrollableStackView-dummy.m */,
+				AF93383F62DE3EFDBFBE37E49F01E754 /* ScrollableStackView-prefix.pch */,
+				31DCEC93F0E30CFE08FF741B670094D5 /* ScrollableStackView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScrollableStackView";
 			sourceTree = "<group>";
 		};
 		F70AAFC4A1FDE80DB431872CA073756B /* Pods-ScrollableStackView_Tests */ = {
@@ -354,45 +368,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BD004A28CC1358A237D82AC2D66FE6C /* Release */ = {
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 043A4B324CC3A348132C1C3FD674DD69 /* Pods-ScrollableStackView_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ScrollableStackView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ScrollableStackView_Example/Pods-ScrollableStackView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ScrollableStackView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Release;
+			name = Debug;
 		};
-		217E25675CFBD0624404489B4315DA5B /* Debug */ = {
+		3C26420B1A1FC92B1D818C7D6C900522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B9D3BB85F1CC31D77B4E89051C05B1D /* Pods-ScrollableStackView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -401,20 +437,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ScrollableStackView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ScrollableStackView_Example/Pods-ScrollableStackView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -424,36 +456,86 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3B435EEADC8B5322E721FAD6D5928D7E /* Debug */ = {
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7FD964F0FFAA18B82F414EB6B44B4B4 /* ScrollableStackView.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8503F31BE1443528928B4E496F4470DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B04FA5B144B8B018227A86A11B39C10 /* ScrollableStackView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ScrollableStackView/ScrollableStackView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ScrollableStackView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ScrollableStackView/ScrollableStackView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ScrollableStackView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -466,7 +548,7 @@
 			};
 			name = Debug;
 		};
-		718264A2FB181FD735C609B62B1F8F02 /* Debug */ = {
+		8CEF7F3710601811510DD695AB1D3493 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7DD78DB4A2B4291D94A15777E00D467 /* Pods-ScrollableStackView_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -475,20 +557,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ScrollableStackView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ScrollableStackView_Tests/Pods-ScrollableStackView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -502,7 +580,73 @@
 			};
 			name = Debug;
 		};
-		8BD1D245EC8BE0FA7E00B6E367451800 /* Release */ = {
+		9D7C112A6C93F3E4BE8055C1E8D6ABAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B04FA5B144B8B018227A86A11B39C10 /* ScrollableStackView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableStackView/ScrollableStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableStackView/ScrollableStackView.modulemap";
+				PRODUCT_NAME = ScrollableStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A31F776B8EBC68E29EFB3E340DD2F05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043A4B324CC3A348132C1C3FD674DD69 /* Pods-ScrollableStackView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollableStackView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollableStackView_Example/Pods-ScrollableStackView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollableStackView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2195DA8C24D9D0C0384F1B59ADB615B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A3D55062D6751A3CD3645423E6A0D1A /* Pods-ScrollableStackView_Tests.release.xcconfig */;
 			buildSettings = {
@@ -511,20 +655,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ScrollableStackView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ScrollableStackView_Tests/Pods-ScrollableStackView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -533,136 +673,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		96C7F192FDD74F6566DC0356AED1A2C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7FD964F0FFAA18B82F414EB6B44B4B4 /* ScrollableStackView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollableStackView/ScrollableStackView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollableStackView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ScrollableStackView/ScrollableStackView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ScrollableStackView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -672,8 +685,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -681,8 +694,8 @@
 		3A327131A057FEC9A9C48AB430A74593 /* Build configuration list for PBXNativeTarget "ScrollableStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B435EEADC8B5322E721FAD6D5928D7E /* Debug */,
-				96C7F192FDD74F6566DC0356AED1A2C5 /* Release */,
+				8503F31BE1443528928B4E496F4470DC /* Debug */,
+				9D7C112A6C93F3E4BE8055C1E8D6ABAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -690,8 +703,8 @@
 		D47115534E4CAA479EC2410214CB265E /* Build configuration list for PBXNativeTarget "Pods-ScrollableStackView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				718264A2FB181FD735C609B62B1F8F02 /* Debug */,
-				8BD1D245EC8BE0FA7E00B6E367451800 /* Release */,
+				8CEF7F3710601811510DD695AB1D3493 /* Debug */,
+				E2195DA8C24D9D0C0384F1B59ADB615B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -699,8 +712,8 @@
 		DE7B202BEDEB937D3259DE6E45CF882E /* Build configuration list for PBXNativeTarget "Pods-ScrollableStackView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				217E25675CFBD0624404489B4315DA5B /* Debug */,
-				1BD004A28CC1358A237D82AC2D66FE6C /* Release */,
+				3C26420B1A1FC92B1D818C7D6C900522 /* Debug */,
+				A31F776B8EBC68E29EFB3E340DD2F05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

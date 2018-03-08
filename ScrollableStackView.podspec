@@ -12,7 +12,7 @@ s.homepage         = 'https://github.com/gurhub/ScrollableStackView'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Gürhan Yerlikaya' => 'gurhanyerlikaya@gmail.com' }
 s.source           = { :git => 'https://github.com/gurhub/ScrollableStackView.git', :tag => s.version.to_s }
-s.ios.deployment_target = '10.0'
+s.ios.deployment_target = '9.3'
 s.source_files = 'ScrollableStackView/Classes/**/*'
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.1.0' }
 end
